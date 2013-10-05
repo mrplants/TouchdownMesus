@@ -161,7 +161,7 @@
                         <barButtonItem key="backBarButtonItem" title="Cancel" id="0HG-cc-c89"/>
                         <barButtonItem key="rightBarButtonItem" id="cFG-cM-SSB">
                             <switch key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="dvn-EB-6SB">
-                                <rect key="frame" x="238" y="8" width="51" height="31"/>
+                                <rect key="frame" x="255" y="6" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="onTintColor" red="0.73333333329999995" green="0.63529411759999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
