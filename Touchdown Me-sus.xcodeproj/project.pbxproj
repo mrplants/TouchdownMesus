@@ -7,20 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C08FD291769694300ECEEB1 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C08FD281769694300ECEEB1 /* iAd.framework */; };
+		2C0D38AD17533066001D1C0C /* helmet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C0D38AC17533066001D1C0C /* helmet.jpg */; };
+		2C20FB8B177346380031F26F /* fillerImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C20FB8A177346380031F26F /* fillerImage.png */; };
 		2C2B8854174F79AF0009A73E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2B8853174F79AF0009A73E /* UIKit.framework */; };
 		2C2B8856174F79AF0009A73E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2B8855174F79AF0009A73E /* Foundation.framework */; };
 		2C2B8858174F79AF0009A73E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2B8857174F79AF0009A73E /* CoreGraphics.framework */; };
 		2C2B885E174F79AF0009A73E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C2B885C174F79AF0009A73E /* InfoPlist.strings */; };
 		2C2B8860174F79AF0009A73E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2B885F174F79AF0009A73E /* main.m */; };
 		2C2B8864174F79AF0009A73E /* TDMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2B8863174F79AF0009A73E /* TDMAppDelegate.m */; };
-		2C2B8866174F79B00009A73E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C2B8865174F79AF0009A73E /* Default.png */; };
-		2C2B8868174F79B00009A73E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C2B8867174F79B00009A73E /* Default@2x.png */; };
-		2C2B886A174F79B00009A73E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C2B8869174F79B00009A73E /* Default-568h@2x.png */; };
 		2C2B886D174F79B00009A73E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2B886B174F79B00009A73E /* MainStoryboard.storyboard */; };
-		2C2B8870174F79B00009A73E /* TDMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2B886F174F79B00009A73E /* TDMViewController.m */; };
+		2C2B8881174F862E0009A73E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2B8880174F862E0009A73E /* AVFoundation.framework */; };
+		2C2B8884174F87730009A73E /* TDMMesusHeadCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2B8883174F87730009A73E /* TDMMesusHeadCollectionViewCell.m */; };
+		2C3A5937175414BC005F9C65 /* TDMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A5936175414BC005F9C65 /* TDMDetailViewController.m */; };
+		2C3A593A17541516005F9C65 /* TDMSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A593917541516005F9C65 /* TDMSettingsViewController.m */; };
+		2C3A593D175453C9005F9C65 /* backgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A593C175453C9005F9C65 /* backgroundView.m */; };
+		2C3A594017545772005F9C65 /* TDMPhotoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A593F17545772005F9C65 /* TDMPhotoCollectionViewController.m */; };
+		2C3A59441754642D005F9C65 /* TDJ_no_mural.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3A59431754642D005F9C65 /* TDJ_no_mural.png */; };
+		2C3A594617546791005F9C65 /* uglySweater.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3A594517546790005F9C65 /* uglySweater.png */; };
+		2C3A594B1754F1CF005F9C65 /* mural_overlay_old.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3A594A1754F1CF005F9C65 /* mural_overlay_old.png */; };
+		2C3A594D17552739005F9C65 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C3A594C17552739005F9C65 /* CoreImage.framework */; };
+		2C3A59501755ACEE005F9C65 /* TDJ_no_mural_low_res.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3A594F1755ACEE005F9C65 /* TDJ_no_mural_low_res.png */; };
+		2C3A59521755CA06005F9C65 /* mural_overlay_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3A59511755CA06005F9C65 /* mural_overlay_2.png */; };
+		2C3A59561755CBB2005F9C65 /* mural_overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3A59551755CBB2005F9C65 /* mural_overlay.png */; };
+		2C51656E1768C395000C4135 /* ImageDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C51656C1768C395000C4135 /* ImageDataModel.xcdatamodeld */; };
+		2C5165751768C84F000C4135 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5165741768C84F000C4135 /* CoreData.framework */; };
+		2C5165781768DD53000C4135 /* TDMPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5165771768DD53000C4135 /* TDMPhoto.m */; };
+		2C51657A17690CF7000C4135 /* TDMicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C51657917690CF7000C4135 /* TDMicon@2x.png */; };
+		2C51657C17690D01000C4135 /* TDMicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C51657B17690D01000C4135 /* TDMicon.png */; };
+		2C51657E17690ECF000C4135 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C51657D17690ECF000C4135 /* Default.png */; };
+		2C51658017690EE7000C4135 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C51657F17690EE7000C4135 /* Default@2x.png */; };
+		2C51658217690EFC000C4135 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C51658117690EFC000C4135 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C08FD281769694300ECEEB1 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		2C0D38AC17533066001D1C0C /* helmet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = helmet.jpg; sourceTree = "<group>"; };
+		2C20FB8A177346380031F26F /* fillerImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fillerImage.png; path = ../fillerImage.png; sourceTree = "<group>"; };
 		2C2B8850174F79AF0009A73E /* Touchdown Me-sus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Touchdown Me-sus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C2B8853174F79AF0009A73E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2C2B8855174F79AF0009A73E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -31,12 +54,34 @@
 		2C2B8861174F79AF0009A73E /* Touchdown Me-sus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Touchdown Me-sus-Prefix.pch"; sourceTree = "<group>"; };
 		2C2B8862174F79AF0009A73E /* TDMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDMAppDelegate.h; sourceTree = "<group>"; };
 		2C2B8863174F79AF0009A73E /* TDMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDMAppDelegate.m; sourceTree = "<group>"; };
-		2C2B8865174F79AF0009A73E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		2C2B8867174F79B00009A73E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		2C2B8869174F79B00009A73E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2C2B886C174F79B00009A73E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		2C2B886E174F79B00009A73E /* TDMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDMViewController.h; sourceTree = "<group>"; };
-		2C2B886F174F79B00009A73E /* TDMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDMViewController.m; sourceTree = "<group>"; };
+		2C2B8880174F862E0009A73E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2C2B8882174F87730009A73E /* TDMMesusHeadCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDMMesusHeadCollectionViewCell.h; sourceTree = "<group>"; };
+		2C2B8883174F87730009A73E /* TDMMesusHeadCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDMMesusHeadCollectionViewCell.m; sourceTree = "<group>"; };
+		2C3A5935175414BC005F9C65 /* TDMDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDMDetailViewController.h; sourceTree = "<group>"; };
+		2C3A5936175414BC005F9C65 /* TDMDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDMDetailViewController.m; sourceTree = "<group>"; };
+		2C3A593817541516005F9C65 /* TDMSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDMSettingsViewController.h; sourceTree = "<group>"; };
+		2C3A593917541516005F9C65 /* TDMSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDMSettingsViewController.m; sourceTree = "<group>"; };
+		2C3A593B175453C9005F9C65 /* backgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = backgroundView.h; sourceTree = "<group>"; };
+		2C3A593C175453C9005F9C65 /* backgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = backgroundView.m; sourceTree = "<group>"; };
+		2C3A593E17545772005F9C65 /* TDMPhotoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDMPhotoCollectionViewController.h; sourceTree = "<group>"; };
+		2C3A593F17545772005F9C65 /* TDMPhotoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDMPhotoCollectionViewController.m; sourceTree = "<group>"; };
+		2C3A59431754642D005F9C65 /* TDJ_no_mural.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TDJ_no_mural.png; sourceTree = "<group>"; };
+		2C3A594517546790005F9C65 /* uglySweater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uglySweater.png; sourceTree = "<group>"; };
+		2C3A594A1754F1CF005F9C65 /* mural_overlay_old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mural_overlay_old.png; sourceTree = "<group>"; };
+		2C3A594C17552739005F9C65 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		2C3A594F1755ACEE005F9C65 /* TDJ_no_mural_low_res.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TDJ_no_mural_low_res.png; sourceTree = "<group>"; };
+		2C3A59511755CA06005F9C65 /* mural_overlay_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mural_overlay_2.png; sourceTree = "<group>"; };
+		2C3A59551755CBB2005F9C65 /* mural_overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mural_overlay.png; sourceTree = "<group>"; };
+		2C51656D1768C395000C4135 /* ImageDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImageDataModel.xcdatamodel; sourceTree = "<group>"; };
+		2C5165741768C84F000C4135 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2C5165761768DD53000C4135 /* TDMPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDMPhoto.h; sourceTree = "<group>"; };
+		2C5165771768DD53000C4135 /* TDMPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDMPhoto.m; sourceTree = "<group>"; };
+		2C51657917690CF7000C4135 /* TDMicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TDMicon@2x.png"; path = "../TDMicon@2x.png"; sourceTree = "<group>"; };
+		2C51657B17690D01000C4135 /* TDMicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TDMicon.png; path = ../TDMicon.png; sourceTree = "<group>"; };
+		2C51657D17690ECF000C4135 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		2C51657F17690EE7000C4135 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		2C51658117690EFC000C4135 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +89,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C08FD291769694300ECEEB1 /* iAd.framework in Frameworks */,
+				2C5165751768C84F000C4135 /* CoreData.framework in Frameworks */,
+				2C3A594D17552739005F9C65 /* CoreImage.framework in Frameworks */,
+				2C2B8881174F862E0009A73E /* AVFoundation.framework in Frameworks */,
 				2C2B8854174F79AF0009A73E /* UIKit.framework in Frameworks */,
 				2C2B8856174F79AF0009A73E /* Foundation.framework in Frameworks */,
 				2C2B8858174F79AF0009A73E /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +122,10 @@
 		2C2B8852174F79AF0009A73E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2C08FD281769694300ECEEB1 /* iAd.framework */,
+				2C5165741768C84F000C4135 /* CoreData.framework */,
+				2C3A594C17552739005F9C65 /* CoreImage.framework */,
+				2C2B8880174F862E0009A73E /* AVFoundation.framework */,
 				2C2B8853174F79AF0009A73E /* UIKit.framework */,
 				2C2B8855174F79AF0009A73E /* Foundation.framework */,
 				2C2B8857174F79AF0009A73E /* CoreGraphics.framework */,
@@ -83,11 +136,18 @@
 		2C2B8859174F79AF0009A73E /* Touchdown Me-sus */ = {
 			isa = PBXGroup;
 			children = (
-				2C2B8862174F79AF0009A73E /* TDMAppDelegate.h */,
-				2C2B8863174F79AF0009A73E /* TDMAppDelegate.m */,
+				2C51656F1768C39C000C4135 /* data */,
+				2C2B8885174F88150009A73E /* subclasses */,
+				2C2B8879174F803C0009A73E /* ViewControllers */,
 				2C2B886B174F79B00009A73E /* MainStoryboard.storyboard */,
-				2C2B886E174F79B00009A73E /* TDMViewController.h */,
-				2C2B886F174F79B00009A73E /* TDMViewController.m */,
+				2C3A59551755CBB2005F9C65 /* mural_overlay.png */,
+				2C3A594F1755ACEE005F9C65 /* TDJ_no_mural_low_res.png */,
+				2C3A594A1754F1CF005F9C65 /* mural_overlay_old.png */,
+				2C3A59511755CA06005F9C65 /* mural_overlay_2.png */,
+				2C0D38AC17533066001D1C0C /* helmet.jpg */,
+				2C3A594517546790005F9C65 /* uglySweater.png */,
+				2C3A59431754642D005F9C65 /* TDJ_no_mural.png */,
+				2C20FB8A177346380031F26F /* fillerImage.png */,
 				2C2B885A174F79AF0009A73E /* Supporting Files */,
 			);
 			path = "Touchdown Me-sus";
@@ -96,15 +156,53 @@
 		2C2B885A174F79AF0009A73E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2C51657B17690D01000C4135 /* TDMicon.png */,
+				2C51657917690CF7000C4135 /* TDMicon@2x.png */,
+				2C51658117690EFC000C4135 /* Default-568h@2x.png */,
+				2C51657F17690EE7000C4135 /* Default@2x.png */,
+				2C51657D17690ECF000C4135 /* Default.png */,
+				2C2B8862174F79AF0009A73E /* TDMAppDelegate.h */,
+				2C2B8863174F79AF0009A73E /* TDMAppDelegate.m */,
 				2C2B885B174F79AF0009A73E /* Touchdown Me-sus-Info.plist */,
 				2C2B885C174F79AF0009A73E /* InfoPlist.strings */,
 				2C2B885F174F79AF0009A73E /* main.m */,
 				2C2B8861174F79AF0009A73E /* Touchdown Me-sus-Prefix.pch */,
-				2C2B8865174F79AF0009A73E /* Default.png */,
-				2C2B8867174F79B00009A73E /* Default@2x.png */,
-				2C2B8869174F79B00009A73E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C2B8879174F803C0009A73E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C3A593E17545772005F9C65 /* TDMPhotoCollectionViewController.h */,
+				2C3A593F17545772005F9C65 /* TDMPhotoCollectionViewController.m */,
+				2C3A593817541516005F9C65 /* TDMSettingsViewController.h */,
+				2C3A593917541516005F9C65 /* TDMSettingsViewController.m */,
+				2C3A5935175414BC005F9C65 /* TDMDetailViewController.h */,
+				2C3A5936175414BC005F9C65 /* TDMDetailViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2C2B8885174F88150009A73E /* subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				2C3A593B175453C9005F9C65 /* backgroundView.h */,
+				2C3A593C175453C9005F9C65 /* backgroundView.m */,
+				2C2B8882174F87730009A73E /* TDMMesusHeadCollectionViewCell.h */,
+				2C2B8883174F87730009A73E /* TDMMesusHeadCollectionViewCell.m */,
+			);
+			name = subclasses;
+			sourceTree = "<group>";
+		};
+		2C51656F1768C39C000C4135 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				2C5165761768DD53000C4135 /* TDMPhoto.h */,
+				2C5165771768DD53000C4135 /* TDMPhoto.m */,
+				2C51656C1768C395000C4135 /* ImageDataModel.xcdatamodeld */,
+			);
+			name = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,10 +258,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C2B885E174F79AF0009A73E /* InfoPlist.strings in Resources */,
-				2C2B8866174F79B00009A73E /* Default.png in Resources */,
-				2C2B8868174F79B00009A73E /* Default@2x.png in Resources */,
-				2C2B886A174F79B00009A73E /* Default-568h@2x.png in Resources */,
 				2C2B886D174F79B00009A73E /* MainStoryboard.storyboard in Resources */,
+				2C0D38AD17533066001D1C0C /* helmet.jpg in Resources */,
+				2C3A59441754642D005F9C65 /* TDJ_no_mural.png in Resources */,
+				2C3A594617546791005F9C65 /* uglySweater.png in Resources */,
+				2C3A594B1754F1CF005F9C65 /* mural_overlay_old.png in Resources */,
+				2C3A59501755ACEE005F9C65 /* TDJ_no_mural_low_res.png in Resources */,
+				2C3A59521755CA06005F9C65 /* mural_overlay_2.png in Resources */,
+				2C3A59561755CBB2005F9C65 /* mural_overlay.png in Resources */,
+				2C51657A17690CF7000C4135 /* TDMicon@2x.png in Resources */,
+				2C51657C17690D01000C4135 /* TDMicon.png in Resources */,
+				2C51657E17690ECF000C4135 /* Default.png in Resources */,
+				2C51658017690EE7000C4135 /* Default@2x.png in Resources */,
+				2C51658217690EFC000C4135 /* Default-568h@2x.png in Resources */,
+				2C20FB8B177346380031F26F /* fillerImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +284,13 @@
 			files = (
 				2C2B8860174F79AF0009A73E /* main.m in Sources */,
 				2C2B8864174F79AF0009A73E /* TDMAppDelegate.m in Sources */,
-				2C2B8870174F79B00009A73E /* TDMViewController.m in Sources */,
+				2C2B8884174F87730009A73E /* TDMMesusHeadCollectionViewCell.m in Sources */,
+				2C3A5937175414BC005F9C65 /* TDMDetailViewController.m in Sources */,
+				2C3A593A17541516005F9C65 /* TDMSettingsViewController.m in Sources */,
+				2C3A593D175453C9005F9C65 /* backgroundView.m in Sources */,
+				2C3A594017545772005F9C65 /* TDMPhotoCollectionViewController.m in Sources */,
+				2C51656E1768C395000C4135 /* ImageDataModel.xcdatamodeld in Sources */,
+				2C5165781768DD53000C4135 /* TDMPhoto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,8 +413,22 @@
 				2C2B8875174F79B00009A73E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2C51656C1768C395000C4135 /* ImageDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2C51656D1768C395000C4135 /* ImageDataModel.xcdatamodel */,
+			);
+			currentVersion = 2C51656D1768C395000C4135 /* ImageDataModel.xcdatamodel */;
+			path = ImageDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2C2B8848174F79AF0009A73E /* Project object */;
 }
